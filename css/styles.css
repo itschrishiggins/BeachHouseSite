@@ -199,7 +199,7 @@ footer {
     background-size: 100%;
     max-width: 100%;
     height: auto;
-    background-image: url(../images/logo3-2.jpg);
+    background-image: url(../Images/logo3-2.jpg);
     -webkit-transition: all ease-out 1000ms;
     transition: all ease-out 1000ms;
     -webkit-animation: fadeInAnimation ease 3s;
