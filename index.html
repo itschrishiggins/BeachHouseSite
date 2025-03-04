@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- CSS -->
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+  <script src="Scripts/script.js"></script>
+</head>
+
+<body>
+  <nav id="mainNavbar" class="navbar navbar-expand-md navbar-dark py-0 fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinks" aria-controls="navLinks"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navLinks">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a href="index.html" class="nav-link">
+            <div class="hover-underline-animation">HOME</div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">
+            <div class="hover-underline-animation">ABOUT</div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="music.html" class="nav-link">
+            <div class="hover-underline-animation">MUSIC</div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="videos.html" class="nav-link">
+            <div class="hover-underline-animation">VIDEOS</div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="tour.html" class="nav-link">
+            <div class="hover-underline-animation">TOUR</div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="top-background">
+    <section id="head">
+      <div id="container" class="click-to-play-video inactive-state">
+        <div id="player" class="home-player"></div>
+      </div>
+    </section>
+  </div>
+
+  <div class="container-fluid">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sRBEc4GP7cY" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <div class="album-div">
+    <img id="grayscale" src="Images/grayscale_album.jpg" />
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <a href="https://twitter.com/beaccchhoussse" target="_blank"><img class="icons"
+          src="Images/twitterLogo.png" /></a>
+      <a href="https://www.facebook.com/beachhouse" target="_blank"><img class="icons"
+          src="Images/facebookLogo.png" /></a>
+      <a href="https://www.instagram.com/beaccchhoussse/" target="_blank"><img class="icons"
+          src="Images/instagramLogo.png" /></a>
+      <a href="https://open.spotify.com/artist/56ZTgzPBDge0OvCGgMO3OY?si=phvhV1AdR8WHpSZh2I3RmA" target="_blank"><img
+          class="icons" src="Images/spotifyLogo.png" /></a>
+      <a href="index.html"><img class="icons" src="Images/logo3.jpg"></a>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2022 <a href="http://www.beachhousebaltimore.com/" target="_blank">Beach House</a> </p>
+      <div class="footer-menu">
+        <ul class="f-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="music.html">Music</a></li>
+          <li><a href="videos.html">Videos</a></li>
+          <li><a href="tour.html">Tour</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
