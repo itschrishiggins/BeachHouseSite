@@ -1,7 +1,3 @@
-// jQuery, Popper.js, and Bootstrap JS for Navbar
-{/* <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script> */}
 
 // Change navbar color after window scroll
 $(document).ready(function () {
