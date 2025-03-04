@@ -3,20 +3,16 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script> */}
 
-// Change navbar color after window scroll -->
-
-  $(function () {
-    $(document).scroll(function () {
-      var $nav = $("#mainNavbar");
-      $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-    });
+// Change navbar color after window scroll
+$(document).ready(function () {
+  $(document).scroll(function () {
+    var $nav = $("#mainNavbar");
+    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
   });
 
-// Javascript for logo/YouTube video-->
-
+  // Javascript for logo/YouTube video
   if ($(window).width() >= 768) { // disable on smaller screens
     $("#container.click-to-play-video").click(function () {
-
       player = new YT.Player('player', {
         width: '490',
         height: '276',
@@ -44,4 +40,5 @@
       }
     }
   }
+});
 
